@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+void main ()
 {
-	printf("Welcome to C programming");
+	printf ("Welcome to C PROGRAMMING");
 }
