@@ -1,10 +1,13 @@
 #include<stdio.h>
 void main()
 {
-	int a=12;
-	int b=13;
-	printf("Addition %d\n",(a+b));
-	printf("multiplication %d\n",(a*b));
-	printf("subtraction %d\n",(a-b));
-	printf("division%f",(a/(float)b));
+	printf("Welcome to C Programming\n");
+	int a=202;
+	int b=970;
+	float c = 12.4;
+	printf("\t\t\t\tAddition - %d\n",(a+b));
+	printf("\t\t\t\tsubtraction - %d\n",(a-b));
+	printf("\t\t\t\tMultiplication - %d\n",(a*b));
+	printf("\t\t\t\tDivision - %f\n", (a/(float)b));
+	printf("Thank You\tThank you \t Thank you\t Thank you ");
 }
