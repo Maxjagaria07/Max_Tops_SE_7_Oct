@@ -1,9 +1,13 @@
 #include<stdio.h>
 void main()
 {
-	char name[14] = "Max";
-	float percentage = 100.0;
-	int rollno = 17;
-	printf("enter your name - ");
-	scanf("%s",name);
+	int l;
+	int b;
+	printf("Enter Length : ");
+	scanf("%d",&l);
+	printf("enter breath");
+	scanf("%d"&b);
+	printf("Area of rectangle- %d",(l*b));
+	
+	
 }
