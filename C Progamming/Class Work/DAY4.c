@@ -6,7 +6,7 @@ void main()
 	printf("Enter Length : ");
 	scanf("%d",&l);
 	printf("enter breath");
-	scanf("%d"&b);
+	scanf("%d",&b);
 	printf("Area of rectangle- %d",(l*b));
 	
 	

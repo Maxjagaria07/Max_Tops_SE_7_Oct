@@ -3,5 +3,5 @@ void main()
 {
 	char z;
 	printf("your nAME;");
-	SCANF("%c",&z);
+	scanf("%c",&z);
 }
