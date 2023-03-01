@@ -1,0 +1,87 @@
+<head>
+    <title>DAY7 </title>
+</head>
+<body>
+
+    <!-- get is default post method but it is insecured -->
+    <form method ="post" action="newpage.html">
+    
+    <form>
+        NAME <input type="text" placeholder="ENTER YOUR NAME"
+         required pattern="[a-zA-Z]{1,5}" 
+         title="BETWEEN A TO Z AND LESS THAN 5 CHARACTERS"name="name">
+
+         <br><br>
+
+         EMAIL <input type="email" placeholder="ENTER EMAIL ADDRESS" 
+         required title="EMAIL IS REQUIRED">
+
+         <br><br>
+
+         PASSWORD <input type="password"placeholder="ENTER PASSWORD"
+          required name="pass">
+
+          <br><br>
+
+
+          MOBILE <input type="text" placeholder="ENTER YOUR PH.NO" 
+          required pattern="[0-9]{10}"title="MUST BE 10 DIGITS">
+
+          <br><br>
+
+          DATE <input type="date"placeholder="ENTER DATE">
+
+          <br><br>
+
+          DATE AND TIME <input type="datetime-local">
+
+          <br><br>
+            color <input type="color">
+          <br><br>
+
+          GENDER => <input type="radio"name="x">MALE
+          <input type="radio"name="x">FEMALE
+
+          <br><br>
+
+        <select>
+            <!-- <option disabled>---select your country--- </option> -->
+            <option hidden>---select your country---</option>
+            <option>INDIA</option>
+            <option>CHINA</option>
+            <option>CANADA</option>
+            <option>USA</option>
+
+            <br><br>
+
+            <textarea rows="4"cols="50" 
+            placeholder="ENTER YOUR FEEDBACK"></textarea>
+
+            <br><br>
+
+        </select>
+        <br><br>
+        
+        LANGUAGES :
+           <input type="checkbox">HINDI
+           <input type="checkbox">ENGLISH
+           <input type="checkbox">GUJRATI
+           <input type="checkbox">TELUGU
+
+        <br><br>
+
+        UPLOAD FILE <input type="file">
+
+        <br><br>
+
+
+          <input type="submit"value=REGISTER>
+          <input type="reset"value=CLEAR>
+
+
+          
+    </form>
+    
+
+</body>
+</html>
