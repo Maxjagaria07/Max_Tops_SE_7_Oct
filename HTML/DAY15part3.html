@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* focus */
+
+        .noborderbox
+        {
+            height: 400px;
+            width:400px;
+            box-shadow: 0 0 30px red;
+            margin-left: 40px;
+            border: none;
+        }
+
+        .noborderbox:focus
+        {
+            background: blue;
+            color:white;
+            font-size: 45px;
+            outline: none;
+        }
+
+        /* hover */
+
+        .item
+        {
+           height: 200px;
+           width: 200px;
+           margin-top: 40px; 
+           background: red;
+           transition: 1s;
+        }
+
+        .item:hover
+        {
+           margin-left: 100px;
+            background: green;
+            border-radius: 120px;
+        }
+
+        h1:first-child
+        {
+            color: red;
+        }
+
+        h1:last-child
+        {
+            color: green;
+        }
+
+        h1:nth-child(3)
+        {
+            color:gray;
+        }
+
+        h1:nth-child(4)
+        {
+            color:darkcyan;
+        }
+
+        h1:nth-child(2)
+        {
+            color:magenta;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <input class="noborderbox"type="text" name="" id="">
+
+    <div class="item"></div>
+
+    <div>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+    </div>
+    
+    <div>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+    </div>
+
+    <div>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+        <h1>MAX</h1>
+    </div>
+    
+</body>
+</html>

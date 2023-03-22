@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pic
+        {
+            height: 400px;
+            width:550px;
+            background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+            background-size: 100% 100%;
+            position:relative;
+            position:relative;
+            margin:auto;
+            overflow: hidden;
+        }
+        .upscroll
+        {
+            height: 400px;
+            width:550px;
+            background-color:black;
+            opacity:.20;
+            position:absolute;
+            top:-400;
+            left:550;
+            transition:1s;
+        }
+        .pic:hover .upscroll
+        {
+            top:0;
+            left:0;
+        }
+        .downscroll
+        {
+            height: 400px;
+            width:550px;
+            background-color:black;
+            opacity:.25;
+            position:absolute;
+            top:400;
+            left:-550;
+            transition: 1s;;
+        }
+        .pic:hover .downscroll
+        {
+            top:0;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pic">
+        <div class="upscroll"></div>
+        <div class="downscroll"></div>
+    </div>
+    
+</body>
+</html>

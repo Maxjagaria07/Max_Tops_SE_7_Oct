@@ -1,0 +1,26 @@
+
+
+        <style>
+           /* <!-- TO IDENTIFY CLASS WE HAVE TO USE . BEFORE THE NAME -->
+ */
+            .x
+            {
+                color:blue;
+                background: red;
+            }
+
+            /*  <!-- TO IDENTIFY ID WE HAVE TO USE # BEFORE THE NAME -->
+*/
+
+            #a
+            {
+                color:brown;
+                background: chartreuse;
+            }
+            /* A CLASS CAN CONTAIN MORE THAN ONE CLASS BUT A ID CAN NOT */
+
+            .a
+            {
+                color:pink;
+                background-color: antiquewhite;
+            }

@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bgimage
+        {
+            height:800px;
+            background: url(https://tse3.mm.bing.net/th?id=OIP.4gNtY_KQ71ua1zMCw1zW9gHaEK&pid=Api&P=0);
+            background-size: 100% 100%;
+            padding-top: 50px;
+        }
+         .grey
+        {
+            height: 550px;
+            width:550px;
+            background-color: gray;
+            margin: 40px auto;
+           overflow: hidden; 
+           
+        } 
+
+       /* .color:hover
+       {
+        transform: rotate(860deg);
+       } */
+
+         .color
+        {
+            height: 2000px;
+            width: 2000px;
+            background: linear-gradient(blue,red,yellow,orange);
+           margin-left:-800px;
+           margin-top: -200px;
+            transition: 10s;
+          
+        }
+
+        .black
+        {
+            height:500px ;
+            width:500px;
+            background: black;
+            position: absolute;
+            top: 120px;
+            left: 510px;
+            
+        }
+
+        .grey:hover .color
+        {
+            transform: rotate(750deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bgimage">
+        <div class="grey">
+        <div class="color"></div>
+        <div class="black"></div>
+        </div><!--grey over -->
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstcircle
+        {
+            height: 200px;
+            width: 200px;
+            background: blueviolet;
+            border-radius: 100%;
+            margin: auto;
+            margin-top: 200px;
+        }
+        .secondcircle
+        {
+            height: 200px;
+            width: 200px;
+            background:blueviolet;
+            border-radius: 100%;
+            margin: auto;
+            margin-top: 200px;
+            transition: 1s;
+        }
+        .thirdcircle
+        {
+            height: 200px;
+            width: 200px;
+            background: blueviolet;
+            border-radius: 100%;
+            margin: auto;
+            margin-top: 200px;
+            transition: 1s;
+        }
+
+        .firstcircle:hover .secondcircle
+        {
+            transform: scale(1.5);
+            opacity: .25;
+        }
+
+        .firstcircle:hover .thirdcircle
+        {
+            transform: scale(2);
+            opacity: .50;
+        }
+    </style>
+</head>
+<body>
+    <div class="firstcircle">
+        <div class="secondcircle">
+            <div class="thirdcircle"></div>
+        </div>
+    </div>
+</body>
+</html>

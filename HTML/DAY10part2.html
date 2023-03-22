@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        .x
+        {
+            /* over write */
+            height: 100px;
+            background: linear-gradient(red,blue,orange,purple);
+            background: linear-gradient(to top,red,blue,orange,purple);
+            background: linear-gradient(to bottom,red,blue,orange,purple);
+            background: linear-gradient(to right,red,blue,orange,purple);
+            background: linear-gradient(to left,red,blue,orange,purple);
+            background: linear-gradient(45deg,red 45%,blue,orange,purple);
+            margin: 0 0 15px 0;
+        }   
+
+        .y
+        {
+            /* over write */
+            /* you can only give the percent of color in radial */
+            height: 100px;
+            background: radial-gradient(red,blue,orange,purple);
+            background: radial-gradient(red 45%,blue,orange,purple);
+        }
+
+
+    </style>
+
+<body>
+
+    <div class="x"></div>
+    <div class="y"></div>
+    
+</body>
+</html>

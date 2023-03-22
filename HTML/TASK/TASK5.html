@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav
+        {
+            height: 100px;
+            background: black;
+            text-align: center;
+            line-height: 100px;
+           
+        }
+
+        li
+        {
+            height: 40px;
+            width: 40px;
+            color:white;
+            display: inline;
+            font-size: 40px;
+            margin-left: 40px;
+            position: relative;
+        }
+
+        .effect
+        {
+            height:10px;
+            width:0px;
+            display: inline;
+            background: red;
+            position: absolute;
+            top:100%;
+            left: 0;
+            transition: 1s;
+        }
+
+        li:hover .effect
+        {
+            width: 100%;
+        }
+    
+    
+
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>
+                HOME
+                <div class="effect"></div>
+            </li>
+            <li>
+                GALLERY
+                <div class="effect"></div>
+            </li>
+            <li>
+                CONTACT US
+                <div class="effect"></div>
+            </li>
+            <li>
+                ABOUT US
+                <div class="effect"></div>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
